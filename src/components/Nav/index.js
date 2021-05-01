@@ -1,6 +1,7 @@
 import React from 'react'
 
-function Nav() {
+function Nav(props) {
+    const tabs = ['ABOUT', 'WORK', 'RESUME', 'CONTACT']
     return (
         <header>
             <h1>
@@ -8,18 +9,15 @@ function Nav() {
             </h1>
             <nav>
                 <ul>
-                    <li>
-                        <a href="#about">ABOUT</a>
-                    </li>
-                    <li>
-                        <a href="#work">WORK</a>
-                    </li>
-                    <li>
-                        <a href="#resume">RESUME</a>
-                    </li>
-                    <li>
-                        <a href="#contact">CONTACT</a>
-                    </li>
+                    {tabs.map(tab => (
+                        <li key={tab}>
+                            <a href={`# ${tab.toLowerCase()}`}
+                            onClick={() => props.handlePageChange(tab)}
+                            >
+                            {tab}
+                            </a>
+                        </li>
+                    ))}
                 </ul>
             </nav>
         </header>
