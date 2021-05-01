@@ -1,7 +1,6 @@
 body {
   font-family: Optima, sans-serif;
   margin: 0;
-  height: 100%;
 }
 section h2 {
   font-size: 50px;
@@ -96,7 +95,7 @@ header nav ul li a:hover {
   padding: 0 60px 60px 60px;
 }
 .work h2 {
-  text-align: right;
+  text-align: left;
 }
 .work-items {
   display: grid;
@@ -109,15 +108,21 @@ header nav ul li a:hover {
   height: 400px;
 }
 .disc-live {
-  background-image: url(./assets/disc-live.jpg);
+  background-image: url(../src/assets/disc-live.jpg);
+}
+
+.rock-fit {
+  background-image: url(../src/assets/rock-fit.jpg);
+}
+
+.rock-fit, .disc-live {
   background-position: center;
-  grid-column: 2 / span 1;
+  grid-column: 1 / span 1;
   grid-row: 1 / span 2;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
-
 }
 
 .work-items article h3,
@@ -130,7 +135,6 @@ header nav ul li a:hover {
   font-weight: lighter;
   letter-spacing: 1.5px;
   font-size: 30px;
-  opacity: 0;
 }
 
 .work-items article p {
@@ -141,46 +145,17 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 
-.work-items article:hover h3,
-.work-items article:hover p {
-  opacity: 1;
-  transition: all 0.5s ease-out;
+.resume {
+  padding: 0 60px 60px 60px;
 }
-.run-buddy, .horiseon, .placeholder {
-  opacity: 0.4;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.run-buddy:hover, .horiseon:hover, .placeholder:hover {
-  opacity: 1;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
-  transition: all 0.5s ease-out;
-}
-
 
 
 /* Contact Styles */
 
-.contact {
+.contact, form {
   padding: 0 60px 60px 60px;
 }
-.contact-info {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.contact-info a {
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-  padding-bottom: 10px;
-}
 
-.contact-info a:hover {
-  border-bottom: solid 2px black;
-}
 
 /* Footer Styles */
 

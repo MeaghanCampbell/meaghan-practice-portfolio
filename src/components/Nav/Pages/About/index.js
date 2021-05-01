@@ -1,9 +1,9 @@
 import React from 'react'
-import AboutImage from '../../assets/about-image.jpg'
+import AboutImage from '../../../../assets/about-image.jpg'
 
 function About() {
     return (
-        <section id="about" class="about">
+        <section id="about" className="about">
         <h2>ABOUT</h2>
         <div className="about-content">
             <img src={AboutImage} alt="Meaghan Campbell Headshot" />
