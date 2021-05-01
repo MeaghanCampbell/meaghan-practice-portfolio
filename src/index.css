@@ -108,27 +108,8 @@ header nav ul li a:hover {
   grid-gap: 10px;
   height: 400px;
 }
-.taskmaster-pro {
-  background-image: url(../images/Taskmaster-Pro.png);
-  background-position: center;
-  grid-column: 1 / span 1;
-  grid-row: 1 / span 1;
-  width: 100%;
-  background-size: cover;
-  border-radius: 5px;
-}
-.weather-dashboard {
-  background-image: url(../images/Weather-Dashboard.png);
-  background-position: center;
-  grid-column: 1 / span 1;
-  grid-row: 2 / span 1;
-  width: 100%;
-  text-align: center;
-  border-radius: 5px;
-
-}
 .disc-live {
-  background-image: url(../images/crowd.jpg);
+  background-image: url(./assets/disc-live.jpg);
   background-position: center;
   grid-column: 2 / span 1;
   grid-row: 1 / span 2;
