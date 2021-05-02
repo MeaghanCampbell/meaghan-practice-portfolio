@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/meaghan-practice-portfolio/static/css/main.6c950f69.chunk.css",
-    "main.js": "/meaghan-practice-portfolio/static/js/main.91bc0ebe.chunk.js",
-    "main.js.map": "/meaghan-practice-portfolio/static/js/main.91bc0ebe.chunk.js.map",
+    "main.css": "/meaghan-practice-portfolio/static/css/main.7474fc26.chunk.css",
+    "main.js": "/meaghan-practice-portfolio/static/js/main.1ef9ef16.chunk.js",
+    "main.js.map": "/meaghan-practice-portfolio/static/js/main.1ef9ef16.chunk.js.map",
     "runtime-main.js": "/meaghan-practice-portfolio/static/js/runtime-main.2da23f66.js",
     "runtime-main.js.map": "/meaghan-practice-portfolio/static/js/runtime-main.2da23f66.js.map",
     "static/js/2.4d20cf78.chunk.js": "/meaghan-practice-portfolio/static/js/2.4d20cf78.chunk.js",
@@ -10,8 +10,11 @@
     "static/js/3.4f263e36.chunk.js": "/meaghan-practice-portfolio/static/js/3.4f263e36.chunk.js",
     "static/js/3.4f263e36.chunk.js.map": "/meaghan-practice-portfolio/static/js/3.4f263e36.chunk.js.map",
     "index.html": "/meaghan-practice-portfolio/index.html",
-    "static/css/main.6c950f69.chunk.css.map": "/meaghan-practice-portfolio/static/css/main.6c950f69.chunk.css.map",
+    "static/css/main.7474fc26.chunk.css.map": "/meaghan-practice-portfolio/static/css/main.7474fc26.chunk.css.map",
     "static/js/2.4d20cf78.chunk.js.LICENSE.txt": "/meaghan-practice-portfolio/static/js/2.4d20cf78.chunk.js.LICENSE.txt",
+    "static/media/Github.4d74fd76.png": "/meaghan-practice-portfolio/static/media/Github.4d74fd76.png",
+    "static/media/Instagram.1751f456.png": "/meaghan-practice-portfolio/static/media/Instagram.1751f456.png",
+    "static/media/Linkedin.abb498c3.png": "/meaghan-practice-portfolio/static/media/Linkedin.abb498c3.png",
     "static/media/about-image.56ee9d90.jpg": "/meaghan-practice-portfolio/static/media/about-image.56ee9d90.jpg",
     "static/media/disc-live.b37dd6cb.jpg": "/meaghan-practice-portfolio/static/media/disc-live.b37dd6cb.jpg",
     "static/media/rock-fit.0de3120a.jpg": "/meaghan-practice-portfolio/static/media/rock-fit.0de3120a.jpg"
@@ -19,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.2da23f66.js",
     "static/js/2.4d20cf78.chunk.js",
-    "static/css/main.6c950f69.chunk.css",
-    "static/js/main.91bc0ebe.chunk.js"
+    "static/css/main.7474fc26.chunk.css",
+    "static/js/main.1ef9ef16.chunk.js"
   ]
 }
