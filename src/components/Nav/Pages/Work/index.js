@@ -38,25 +38,26 @@ function Work() {
                     repo={projects.repo}
                     app={projects.app}
                 >
-                        <div className="img-container">
+                        <article className="work-container">
                             <img className="workImage" alt={projects.name} src={projects.image} />
-                        </div>
-                        <div className="content">
-                            <ul>
-                            <li className="projectTitle">
-                                {projects.name}
-                            </li>
-                            <li>
-                                {projects.description}
-                            </li>
-                            <li>
-                                <a href={projects.app}>View The App</a>
-                            </li>
-                            <li>
-                                <a href={projects.repo}>View The Code</a>
-                            </li>
-                            </ul>
-                        </div>
+                            <div className="content">
+                                <ul>
+                                <li className="projectTitle">
+                                    {projects.name}
+                                </li>
+                                <li>
+                                    {projects.description}
+                                </li>
+                                <li>
+                                    <a href={projects.app}>View The App</a>
+                                </li>
+                                <li>
+                                    <a href={projects.repo}>View The Code</a>
+                                </li>
+                                </ul>
+                            </div>
+                        </article>
+
                     </div>
             ))}
         </section>

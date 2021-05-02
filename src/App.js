@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <main>
+      <main className="main">
         <PortfolioContainer></PortfolioContainer>
       </main>
       <Footer></Footer>

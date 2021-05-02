@@ -10,6 +10,7 @@ This app is a practice portfolio for Meaghan Campbell built using React.
 This app was created by Meaghan Campbell
 
 # Link
+[meaghancampbell.github.io/meaghan-practice-portfolio](meaghancampbell.github.io/meaghan-practice-portfolio)
 
 # Technology Used
 React, JSX, and CSS
