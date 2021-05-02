@@ -50,13 +50,6 @@ header nav ul li a:hover {
   border-radius: 10px;
 }
 
-/* Hero Styles */
-
-.hero img {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
 
 /* About Styles */
 
@@ -96,53 +89,6 @@ header nav ul li a:hover {
 }
 .work h2 {
   text-align: left;
-}
-.work-items {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  color: #F4F4F4;
-  justify-items: center;
-  grid-auto-flow: dense;
-  grid-gap: 10px;
-  height: 400px;
-}
-.disc-live {
-  background-image: url(../src/assets/disc-live.jpg);
-}
-
-.rock-fit {
-  background-image: url(../src/assets/rock-fit.jpg);
-}
-
-.rock-fit, .disc-live {
-  background-position: center;
-  grid-column: 1 / span 1;
-  grid-row: 1 / span 2;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 5px;
-}
-
-.work-items article h3,
-.work-items article p {
-  color: #F4F4F4;
-  background-color: black;
-  padding: 15px;
-  border-radius: 5px;
-  text-align: center;
-  font-weight: lighter;
-  letter-spacing: 1.5px;
-  font-size: 30px;
-}
-
-.work-items article p {
-  font-size: 20px;
-}
-
-.work-items article a {
-  text-decoration: none;
 }
 
 .resume {
@@ -204,6 +150,48 @@ footer h2 {
   letter-spacing: 1.5px;
   margin: 0;
   padding: 30px;
+}
+
+.workImage {
+  width: 50%;
+  height: auto;
+  border: 3px solid black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.35);
+  box-sizing: border-box;
+}
+.content {
+  width: 50%;
+  overflow: wrap;
+  background-color: black;
+  color: white;
+  padding: 2px 2px 2px 0;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px;
+}
+
+.content li a {
+  text-decoration: none;
+  color: white;
+}
+.content li {
+  margin: 4px;
+}
+
+.content li a:hover {
+  font-weight: bold;
+}
+
+.projectTitle {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
 }
 
 
@@ -275,5 +263,11 @@ footer h2 {
   }
   footer h2 {
       padding: 15px 30px;
+  }
+  .workImage {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
   }
 }
